@@ -22,8 +22,8 @@ jobs:
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          color: "#48f442"
-          username: "The Bot"
+          color: "#42f47d"
+          username: "Da Frog Bot"
           message: |
             🎉 New pull request opened!
 
@@ -45,8 +45,8 @@ jobs:
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          color: "#48f442"
-          username: "The Bot"
+          color: "#42f47d"
+          username: "Da Frog Bot"
           message: |
             🚀 Pull request merged into master!
 
