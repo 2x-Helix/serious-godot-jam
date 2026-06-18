@@ -19,7 +19,7 @@ jobs:
         uses: chickensoft-games/setup-godot@v2
         with:
           # Specify the exact Godot version you are using
-          version: 4.3 # Change to 3.x if using Godot 3
+          version: 4.3.0 # Change to 3.x if using Godot 3
           use-dotnet: false # Set to true if your project uses C# (.NET)
 
       - name: Generate .godot Import Cache
