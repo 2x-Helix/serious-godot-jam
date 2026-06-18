@@ -1,6 +1,15 @@
 name: "godot-ci export"
 
-on: push
+#on: push
+#TODO: this is just a test
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, reopened, synchronize]
+    branches:
+      - main
 
 # NOTE: If your `project.godot` is at the repository root, set `PROJECT_PATH` below to ".".
 
